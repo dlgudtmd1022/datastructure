@@ -35,7 +35,7 @@ public class StackUseMethod {
                         bw.write("0\n");
                     }
                     break;
-                case "top" :    // 스택의 가장 마지막 데이터를 확인
+                case "top" :    // 스택의 가장 마지막 데이터를 확인한다.
                     if (stack.isEmpty()){
                         bw.write("-1\n");
                     }else {
